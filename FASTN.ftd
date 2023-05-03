@@ -1,6 +1,6 @@
 -- import: fastn
 
--- fastn.package: fastn-community.github.io/winter-cs
+-- fastn.package: <user_name>.github.io/<repo_name>
 
 -- fastn.dependency: fifthtry.github.io/code-block
 -- fastn.dependency: fifthtry.github.io/dark-mode-switcher
