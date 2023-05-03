@@ -1,27 +1,27 @@
 -- import: fastn
 -- import: fastn/processors as pr
--- import: <user_name>.github.io/<repo_name>/assets
--- import: <user_name>.github.io/<repo_name>/colors
+-- import: fastn-community.github.io/winter-cs/assets
+-- import: fastn-community.github.io/winter-cs/colors
 -- import: fastn-community.github.io/color-doc/components as cp
 -- import: fastn-community.github.io/inter-typography as typo
 
 -- string figma-json:
 $processor$: pr.figma-cs-token
 ;; **** replace below $ftd.default-colors with $main and remove this line ****
-variable: $ftd.default-colors
+variable: $main
 name: default-colors
 
 -- end: figma-json
 
 ;; **** replace below $ftd.default-colors with $main and remove this line ****
--- ftd.color-scheme colors-data: $ftd.default-colors
+-- ftd.color-scheme colors-data: $main
 
 
 
 -- cd.package: THEME
-name: `<repo_name>`
+name: `winter-cs`
 logo: $assets.files.static.fastn-logo.svg
-subtitle: Adding warmth and energy to your designs with the `<repo_name>` Color Scheme
+subtitle: Adding warmth and energy to your designs with the `winter-cs` Color Scheme
 colors: $colors-data
 types: $typo.types
 
@@ -143,7 +143,7 @@ copyright: Copyright © 2023 - [FifthTry.com](https://www.fifthtry.com/)
 -- end: cp.components-pallete
 
 -- cd.color-scheme: 
-tagline: Adding warmth and energy to your designs with the `<repo_name>` color scheme
+tagline: Adding warmth and energy to your designs with the `winter-cs` color scheme
 
 -- cd.color-scheme.rightbar:
 
@@ -154,18 +154,18 @@ link: https://fastn.com/
 
 -- cd.title-with-link: Github Link
 icon: $assets.files.static.link-icon.svg
-link-text: github.com/<user_name>/<repo_name>
-link: https://github.com/<user_name>/<repo_name>
+link-text: github.com/fastn-community/winter-cs
+link: https://github.com/fastn-community/winter-cs
 
 -- cd.title-with-link: License Information
 icon: $assets.files.static.bsd-license-icon.svg
 link-text: BSD 3-Clause License
-link: https://github.com/<user_name>/<repo_name>/blob/main/LICENSE
+link: https://github.com/fastn-community/winter-cs/blob/main/LICENSE
 
 -- cd.title-with-link: Author Information
 icon: $assets.files.static.author-icon.svg
 link-text: Contributors
-link: https://github.com/<user_name>/<repo_name>/graphs/contributors
+link: https://github.com/fastn-community/winter-cs/graphs/contributors
 
 -- cd.title-with-link: Discord Channel 
 icon: $assets.files.static.discord-icon.svg
@@ -194,7 +194,7 @@ link: https://fastn.com/figma-to-fastn-cs/
 The colours we use in our designs can have a significant impact on the mood and
 feelings they inspire. The perfect colour palette may take your design to the
 next level, whether you're creating a website, app, or anything else. The
-`<repo_name>` colour scheme is ideal for designs that aim to portray strength,
+`winter-cs` colour scheme is ideal for designs that aim to portray strength,
 warmth, and growth.
 
 -- cb.code: Figma tokens json
@@ -219,22 +219,22 @@ custom colour scheme. To apply a colour scheme package on top of your package,
 you’ll need to import it into one of the module. 
 
 For example, let’s say you’re using the page component from `doc-site` package
-and want to apply the <repo_name> scheme package on top of it. You first create
-a new module, let’s say my-ds.ftd. Then you import <repo_name> package module
+and want to apply the winter-cs scheme package on top of it. You first create
+a new module, let’s say my-ds.ftd. Then you import winter-cs package module
 and then create a new component called page there. 
 
 Here’s what your my-ds.ftd module and FASTN.ftd import would look like:
 
--- cb.code: Add `<repo_name>` as a dependency into FASTN.ftd
+-- cb.code: Add `winter-cs` as a dependency into FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: fastn-community.github.io/winter-cs
 
 -- cb.code: my-ds.ftd module
 lang: ftd
 download: my-ds.ftd
 
-\-- import: <user_name>.github.io/<repo_name> as my-cs
+\-- import: fastn-community.github.io/winter-cs as my-cs
 \-- import: fifthtry.github.io/doc-site as ds
 
 \-- component page: 
