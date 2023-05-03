@@ -8,13 +8,13 @@
 -- string figma-json:
 $processor$: pr.figma-cs-token
 ;; **** replace below $ftd.default-colors with $main and remove this line ****
-variable: $ftd.default-colors
+variable: $main
 name: default-colors
 
 -- end: figma-json
 
 ;; **** replace below $ftd.default-colors with $main and remove this line ****
--- ftd.color-scheme colors-data: $ftd.default-colors
+-- ftd.color-scheme colors-data: $main
 
 
 
