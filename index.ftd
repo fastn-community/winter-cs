@@ -687,9 +687,9 @@ bgcolor: $colors-data.error.base
 border-dark: $colors-data.error.border.dark
 border-light: $colors-data.error.border.light
 border: $colors-data.error.border
-text-dark: $colors-data.error.border.dark
-text-light: $colors-data.error.border.light
-text: $colors-data.error.border
+text-dark: $colors-data.error.text.dark
+text-light: $colors-data.error.text.light
+text: $colors-data.error.text
 
 Error button with border, text and background of the color shown from top to
 bottom in this color box.
@@ -730,9 +730,9 @@ bgcolor: $colors-data.success.base
 border-dark: $colors-data.success.border.dark
 border-light: $colors-data.success.border.light
 border: $colors-data.success.border
-text-dark: $colors-data.success.border.dark
-text-light: $colors-data.success.border.light
-text: $colors-data.success.border
+text-dark: $colors-data.success.text.dark
+text-light: $colors-data.success.text.light
+text: $colors-data.success.text
 
 Success button with border, text and background of the color shown from top to
 bottom in this color box.
@@ -773,9 +773,9 @@ bgcolor: $colors-data.warning.base
 border-dark: $colors-data.warning.border.dark
 border-light: $colors-data.warning.border.light
 border: $colors-data.warning.border
-text-dark: $colors-data.warning.border.dark
-text-light: $colors-data.warning.border.light
-text: $colors-data.warning.border
+text-dark: $colors-data.warning.text.dark
+text-light: $colors-data.warning.text.light
+text: $colors-data.warning.text
 
 Warning button with border, text and background of the color shown from top to
 bottom in this color box.
@@ -815,9 +815,9 @@ bgcolor: $colors-data.info.base
 border-dark: $colors-data.info.border.dark
 border-light: $colors-data.info.border.light
 border: $colors-data.info.border
-text-dark: $colors-data.info.border.dark
-text-light: $colors-data.info.border.light
-text: $colors-data.info.border
+text-dark: $colors-data.info.text.dark
+text-light: $colors-data.info.text.light
+text: $colors-data.info.text
 
 Info button with border, text and background of the color shown from top to
 bottom in this color box.
