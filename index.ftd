@@ -318,7 +318,7 @@ Copy below code snippet inside your `ftd` file, then deploy and test
 -- cb.code: 
 lang: ftd
 
-\-- example: This is example of types used from `winter-cs`
+\-- example: This is example of colors used from `winter-cs`
 
 \-- component example:
 caption title:
