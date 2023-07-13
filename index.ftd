@@ -223,7 +223,7 @@ you’ll need to import it into `FASTN.ftd`.
 **Option 1:** for documentation templates like [doc-site](https://fastn-community.github.io/doc-site/types/) 
 
 For example, let’s say you’re using the page component from `doc-site` package
-and want to apply the <add color scheme name here> scheme package on top of it.
+and want to apply the <winter-cs> scheme package on top of it.
 
 To add color scheme to your [fastn](https://fastn.com/) 
 [doc-site](https://fastn-community.github.io/doc-site/cs/). Edit your `FASTN.ftd` file and add
