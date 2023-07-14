@@ -24,6 +24,9 @@ logo: $assets.files.static.fastn-logo.svg
 subtitle: winter-cs: color scheme
 colors: $colors-data
 types: $typo.types
+document-title: winter-cs:  fastn color scheme package
+document-description: winter-cs:  fastn color scheme package
+document-image: https://fastn.com/-/fastn.com/images/featured/cs/winter-cs-dark.png
 
 -- cp.components-pallete:
 
