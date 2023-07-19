@@ -24,8 +24,8 @@ logo: $assets.files.static.fastn-logo.svg
 subtitle: winter-cs: color scheme
 colors: $colors-data
 types: $typo.types
-document-title: winter-cs:  fastn color scheme package
-document-description: winter-cs:  fastn color scheme package
+document-title: Oxford Blue-themed Colour Scheme for Web Design | fastn Winter CS
+document-description: Discover the Winter Colour Scheme by fastn, featuring beautiful shades of oxford blue for both dark and light modes.
 document-image: https://fastn.com/-/fastn.com/images/featured/cs/winter-cs-dark.png
 
 -- cp.components-pallete:
