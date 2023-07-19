@@ -339,7 +339,7 @@ Enjoy the look and feel of your website using `winter-cs` colour scheme.
 
 -- end: cd.how-to-use-cs
 
--- cd.color-pallete: Standalone colors
+-- cd.color-pallete: Standalone Colors
 pallete: $standalone
 
 -- cd.color-pallete: Background Colors
